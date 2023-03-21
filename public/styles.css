@@ -2,6 +2,31 @@
     flex-grow: 0;
 }
 
+.navigation-bar{
+  height: 10vh;
+}
+
+.navigation-bar *{
+  position: relative;
+}
+
+main{
+  height: 80vh;
+  margin-top: 5vh;
+  width: 100vw;
+  background-color: red;
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+
+.carousel{
+  width: 90vw;
+  text-align: center;
+  display: flex;
+  align-items: center;
+}
+
 .typing-demo {
     width: 250px;
     animation: typing 3s steps(13), blink .5s step-end infinite alternate;
